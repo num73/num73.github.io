@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: "num73's Blog/nb"
+  INSTANCE: "Writerside/nb"
   ARTIFACT: 'webHelpNB2-all.zip'
   DOCKER_VERSION: '241.18775'
 
