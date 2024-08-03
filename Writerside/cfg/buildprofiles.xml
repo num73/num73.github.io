@@ -10,6 +10,9 @@
             <custom-favicons>favicon.png</custom-favicons>
             <noindex-content>true</noindex-content>
         </variables>
+        <footer>
+            <social type="email" href="xlnum73@outlook.com">Email</social>
+        </footer>
     </build-profile>
 
 </buildprofiles>
