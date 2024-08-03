@@ -6,6 +6,7 @@
     <variables></variables>
     <build-profile instance="nb">
         <variables>
+            <header-logo>favicon.png</header-logo>
             <custom-favicons>favicon.png</custom-favicons>
             <noindex-content>true</noindex-content>
         </variables>
