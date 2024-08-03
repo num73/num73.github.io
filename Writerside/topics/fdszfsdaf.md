@@ -1,3 +1,0 @@
-# About fdszfsdaf
-
-Start typing here...
