@@ -7,4 +7,18 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Alogrithms.md">
+        <toc-element topic="翻译文章.md">
+            <toc-element topic="三分算法.md"/>
+            <toc-element topic="ST表.md"/>
+            <toc-element topic="Newton求根法.md"/>
+            <toc-element topic="MEX-minimal-excluded-of-a-sequence.md"/>
+            <toc-element topic="动态规划介绍.md"/>
+            <toc-element topic="Games-on-Arbitrary-Graphs.md"/>
+            <toc-element topic="平衡三进制.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Public-Note.md">
+        <toc-element topic="latex公式.md"/>
+    </toc-element>
 </instance-profile>
