@@ -1,4 +1,3 @@
-
 # LaTeX 公式
 
 本文主要介绍在markdown编辑器中常用$\LaTeX$的公式语法。在markdown中使用$\LaTeX$公式要确定自己的markdown编辑器是否支持$\LaTeX$​公式。

@@ -1,3 +1,3 @@
 # Public Note
 
-Start typing here...
+Some public notes.
