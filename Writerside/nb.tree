@@ -16,6 +16,9 @@
         <toc-element topic="Pond-CXL-Based-Memory-Pooling-Systems-for-Cloud-Platforms.md"/>
         <toc-element topic="CPI.topic"/>
     </toc-element>
+    <toc-element topic="Reading-Notes.topic">
+        <toc-element topic="A-Primer-on-Memory-Consistency-and-Cache-Coherence.topic"/>
+    </toc-element>
     <toc-element topic="Alogrithms.md">
         <toc-element topic="翻译文章.md">
             <toc-element topic="三分算法.md"/>
