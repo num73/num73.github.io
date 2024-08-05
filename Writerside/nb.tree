@@ -8,8 +8,8 @@
 
     <toc-element topic="starter-topic.md"/>
     <toc-element topic="Essay.topic">
-        <toc-element topic="CXL-feature.md"/>
         <toc-element topic="cxlnote.topic"/>
+        <toc-element topic="CXL-feature.md"/>
     </toc-element>
     <toc-element topic="Paper-Notes.topic">
         <toc-element topic="CXL.topic">
