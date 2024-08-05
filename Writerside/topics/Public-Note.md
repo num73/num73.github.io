@@ -1,3 +1,3 @@
-# Public Note
+# Notes
 
 Some public notes.

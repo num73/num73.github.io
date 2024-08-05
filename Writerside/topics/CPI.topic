@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="CPI" id="CPI">
+
+    <p>CPI即Compute Express Link (CXL)-Cache/Mem Protocol Interface (CPI), CPI的作用是在agent和fabric之间映射一致性协议。</p>
+
+</topic>
