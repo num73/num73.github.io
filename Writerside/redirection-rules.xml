@@ -10,4 +10,8 @@
         <description>Created after removal of "CXL" from Blog</description>
         <accepts>cxlNote.html</accepts>
     </rule>
+    <rule id="65521d51">
+        <description>Created after removal of "CXL" from Blog</description>
+        <accepts>CXL.html</accepts>
+    </rule>
 </rules>
