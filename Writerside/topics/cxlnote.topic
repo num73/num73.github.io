@@ -8,31 +8,60 @@
     <p>Some resources about CXL.</p>
 
     <chapter title="Websites" id="websites">
-        <list>
-            <li><a href="https://computeexpresslink.org/">https://computeexpresslink.org/</a></li>
-        </list>
+        <deflist>
+            <def>
+                <title><a href="https://computeexpresslink.org/">https://computeexpresslink.org/</a></title>
+            </def>
+        </deflist>
 
     </chapter>
 
     <chapter title="Articles" id="articles">
-        <list>
-            <li><a href="https://github.com/Compute-Express-Link/CXLPapers">CXLPapers</a></li>
-            <li><a href="https://github.com/twicy/awesome-CXL">awesome-CXL</a>:This is a repo listing papers/blogs/news related to CXL. Let's take the leap to Next-Gen memory system with the awesome CXL</li>
-            <li><a href="https://github.com/seanhwang10/PCIe-CXL">PCIe-CXL</a>: Note repository for studying Peripheral Component Interconnect Express (PCIe) and Compute Express Link (CXL).</li>
-            <li><a href="https://blog.csdn.net/qq_36159989/article/details/135082470?spm=1001.2014.3001.5502">CXL论文阅读笔记整理（持续更新）</a></li>
-            <li><a href="https://github.com/sg20180546/CXL-awesome-paper">CXL-awesome-paper</a>: Paper related to Compute Express Link. </li>
-        </list>
+        <deflist>
+            <def>
+                <title><a href="https://github.com/Compute-Express-Link/CXLPapers">CXLPapers</a></title>
+            </def>
+            <def>
+                <title><a href="https://github.com/twicy/awesome-CXL">awesome-CXL</a></title>
+                This is a repo listing papers/blogs/news related to CXL. Let's take the leap to Next-Gen memory system with the awesome CXL.
+            </def>
+            <def>
+                <title><a href="https://github.com/seanhwang10/PCIe-CXL">PCIe-CXL</a></title>
+                Note repository for studying Peripheral Component Interconnect Express (PCIe) and Compute Express Link (CXL).
+            </def>
+            <def>
+                <title><a href="https://blog.csdn.net/qq_36159989/article/details/135082470?spm=1001.2014.3001.5502">CXL论文阅读笔记整理（持续更新）</a></title>
+            </def>
+            <def>
+                <title><a href="https://github.com/sg20180546/CXL-awesome-paper">CXL-awesome-paper</a></title>
+                Paper related to Compute Express Link.
+            </def>
+        </deflist>
     </chapter>
 
     <chapter title="Software" id="software">
-        <list>
-            <li><a href="https://github.com/Seagate/cxl-lib">cxl-lib</a>: Go Language utility library for CXL device information.</li>
-            <li><a href="https://github.com/cxl-micron-reskit/cxl-reskit">cxl-reskit</a>: CXL Memory Resource Kit top-level repository.</li>
-            <li><a href="https://github.com/SlugLab/CXLMemSim">CXLMemSim</a>></li>
-            <li><a href="https://github.com/cxlbench/cxlbench">cxlbench</a>:A Compute Express Link (CXL) Benchmark Suite</li>
-            <li><a href="https://github.com/sscargal/linux-cxl-tracker">linux-cxl-tracker</a>: About
-                A Python tool for tracking changes in Compute Express Link (CXL) features within the Linux kernel using GitHub API. It supports various output formats for ease of monitoring.</li>
-        </list>
+        <deflist>
+            <def>
+                <title><a href="https://github.com/Seagate/cxl-lib">cxl-lib</a></title>
+                Go Language utility library for CXL device information.
+            </def>
+            <def>
+                <title><a href="https://github.com/cxl-micron-reskit/cxl-reskit">cxl-reskit</a></title>
+                CXL Memory Resource Kit top-level repository.
+            </def>
+            <def>
+                <title><a href="https://github.com/SlugLab/CXLMemSim">CXLMemSim</a></title>
+            </def>
+           <def title="">
+               <title><a href="https://github.com/cxlbench/cxlbench">cxlbench</a></title>
+               A Compute Express Link (CXL) Benchmark Suite
+           </def>
+            <def title="">
+                <title><a href="https://github.com/sscargal/linux-cxl-tracker">linux-cxl-tracker</a></title>
+                A Python tool for tracking changes in Compute Express Link (CXL) features within the Linux kernel using GitHub API. It supports various output formats for ease of monitoring.
+            </def>
+
+        </deflist>
     </chapter>
 
     <chapter title="Papers" id="papers">
