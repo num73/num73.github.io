@@ -6,4 +6,4 @@ If this page is what you get through me blog link, it properly means that the bl
 
 Me Email: xlnum73@outlook.com
 
-**Long may your days shine!**
+<font color = "orange" size = "9">Long may your days shine!</font>
