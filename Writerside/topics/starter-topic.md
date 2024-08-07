@@ -9,9 +9,9 @@ Hello, I am Num73. This is me blog.
 - <a href="CXL-feature.md"></a>
 - <a href="Pond-CXL-Based-Memory-Pooling-Systems-for-Cloud-Platforms.md"></a>
 
-## Updated
+## Recent Updated
 
-
+- <a href="cxlnote.topic"></a>
 
 ## Selected Articles
 
