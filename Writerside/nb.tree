@@ -12,6 +12,7 @@
         <toc-element topic="CXL-feature.md"/>
     </toc-element>
     <toc-element topic="Paper-Notes.topic">
+      <!--  <toc-element topic="Direct-Access-High-Performance-Memory-Disaggregation-with-DirectCXL.topic"/> -->
         <toc-element topic="File-System-Semantics-Requirements-of-HPC-Applications.md"/>
         <toc-element topic="Pond-CXL-Based-Memory-Pooling-Systems-for-Cloud-Platforms.md"/>
         <toc-element topic="CPI.topic"/>
@@ -33,6 +34,8 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Public-Note.md">
+        <toc-element topic="stared.topic"/>
         <toc-element topic="Latex.md"/>
     </toc-element>
+    <toc-element topic="Moment.topic"/>
 </instance-profile>

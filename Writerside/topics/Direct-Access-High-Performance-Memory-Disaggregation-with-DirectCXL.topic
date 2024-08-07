@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Direct Access, High-Performance Memory Disaggregation with DirectCXL" id="Direct-Access-High-Performance-Memory-Disaggregation-with-DirectCXL">
+
+    <p>
+        While CXL have recently attracted great attention thanks to their excellent hardware
+        heterogeneity management and resource disaggregation capabilities, there is yet no real product
+        or platform to integrate CXL into memory disaggregation. This paper aimed to fill this blank.
+        This paper proposed directly accessible memory disaggregation,
+        DIRECTCXL that straight connects a host processor
+        complex and remote memory resources over CXL’s
+        memory protocol (CXL.mem).
+    </p>
+
+    <chapter title="Memory Disaggregation and Related Word" id="memory-disaggregation-and-related-word">
+        <deflist>
+            <def title="Remote Direct Memory Access">
+                Remote Direct Memory Access(RDMA) is a idea of memory disaggregation
+                to connect a host with one or more memory nodes, such that it does not
+                restrict a given job execution because of limited local memory space.
+                <img alt="image.png" src="imagefadsfsdfas.png"/>
+            </def>
+            <def title="Swap: Page-based Memory Pool">
+                Page-based memory disaggregation achieves memory elasticity by relying
+                on virtual memory systems. Specifically, this approach intercepts paging
+                requests when there is page fault, and then it swaps the data to a remote
+                memory node instead, and then it swaps the data to a remote memory node
+                instead od the underlying storage.
+            </def>
+            <def title="KVS: Object-based Memory Pool">
+                Object-based memory disaggregation systems directly intervene in RDMA data
+                transfers using their own database such as key-value store(KVS).
+            </def>
+        </deflist>
+
+    </chapter>
+
+    <chapter title="Design of DIRECTCXL" id="design-of-directcxl">
+        <chapter title="Hardware">
+            <p>
+                CXL devices are designed as pure passive modules, each being able
+                to have many DRAM DIMMs with its own hardware controllers. The device's
+                CXL controller parses incoming PCIe-based CXL packets, called CXL flits,
+                convents their information (address and length) to DRAM requests, and serves
+                them from the underlying DRAMs using the DRAM controllers.
+            </p>
+            <p>
+                The picture below shows how CXL device's internal DRAMs are mapped (exposed) to
+                a host's memory space over CXL, how
+                DIRECTCXL can disaggregate memory resources from a host
+                using one or more and CXL devices, and how
+                their CXL switch organization therein.
+            </p>
+
+            <img alt="image_hardware.png" src="image_hardware.png" width="407"/>
+            <img alt="image_Figure3.png" src="image_Figure3.png" width="379"/>
+        </chapter>
+        <chapter title="Software">
+            <p>
+                The software designed to enable the applications running on the host can directly access
+                the CXL device by referring to HDM's memory space. The DIRECTCXL runtime simply splits the
+                address space of HDM into multiple segments, calles <format style="italic">cxl-namespace.</format>
+            </p>
+            <p>
+                The figure below shows the soft stack of the DIRECTCXL runtime and how the application can use
+                the disaggregated memory through cxl-namespace.When a CXL device is detected (at a PCIe
+                enumeration time), DIRECTCXL driver creates an entry device
+                (e.g., /dev/directcxl) to allow users to manage a
+                cxl-namespace via ioctl. If users ask a cxl-namespace to
+                /dev/directcxl, the driver checks a (physically) contiguous
+                address space on an HDM by referring to its HDM segment
+                table whose entry includes a segment’s offset, size, and reference
+                count (recording how many cxl-namespaces that indicate
+                this segment).Once DIRECTCXL driver allocates a segment
+                based on the user request, it creates a device for mmap
+                (e.g., /dev/cxl-ns0) and updates the segment table. The user
+                application can then map the cxl-namespace to its process
+                virtual memory space using <code>mmap</code> with <code>vm_area_struct</code>>.
+            </p>
+            <img alt="imageFigure-4-DIRECTCXL-software-runtime.png" src="imageFigure-4-DIRECTCXL-software-runtime.png" width="300"/>
+        </chapter>
+
+        <chapter title="Evaluation" id="evaluation">
+
+        </chapter>
+
+
+    </chapter>
+
+    <!--
+    <chapter title="Others">
+        <p>Some articles of others, which can help to understand.</p>
+        <list>
+            <li><a href="https://blog.csdn.net/u014443578/article/details/134307186"></a></li>
+            <li><a href="https://www.bilibili.com/read/cv21782876/"></a></li>
+            <li><a href="https://haslab.org/2022/09/01/directCXL.html"></a></li>
+        </list>        
+        
+    </chapter>
+    -->
+
+
+</topic>
