@@ -36,6 +36,10 @@
                 <title><a href="https://github.com/sg20180546/CXL-awesome-paper">CXL-awesome-paper</a></title>
                 Paper related to Compute Express Link.
             </def>
+            <def title="">
+                <title><a href="https://pmem.io/ndctl/cxl/">ndctl</a></title>
+                A CXL tool.
+            </def>
         </deflist>
     </chapter>
 
@@ -60,9 +64,10 @@
                 <title><a href="https://github.com/sscargal/linux-cxl-tracker">linux-cxl-tracker</a></title>
                 A Python tool for tracking changes in Compute Express Link (CXL) features within the Linux kernel using GitHub API. It supports various output formats for ease of monitoring.
             </def>
+
             <def title="">
-                <title><a href="https://pmem.io/ndctl/cxl/">ndctl</a></title>
-                A CXL memory device management tool.
+                <title><a href="https://github.com/pmem/ndctl/tree/v79"></a>ndctl</title>
+                CXL tool.
             </def>
         </deflist>
     </chapter>
