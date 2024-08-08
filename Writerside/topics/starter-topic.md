@@ -11,6 +11,7 @@ Hello, I am Num73. This is me blog.
 
 ## Recent Updated
 
+- <a href="stared.topic"></a>
 - <a href="cxlnote.topic"></a>
 
 ## Selected Articles

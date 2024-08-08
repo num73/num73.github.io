@@ -6,7 +6,21 @@
        title="Stared" id="stared">
 
     <p>Some useful stuff.</p>
+    <chapter title="How to measure memory access latency">
+        <p>
+            <a href="https://stackoverflow.com/questions/20183273/how-to-test-main-memory-access-time"></a>
+        </p>
+
+        <p>
+            <a href="https://stackoverflow.com/questions/13603995/measuring-latencies-of-memory"></a>
+        </p>
+
+
+    </chapter>
+
     <a href="https://haslab.org/archives/" summary="Some HUST lab's articles, maybe it's useful, I think.">
         High-performance Architecture and System Laboratory's Archives
     </a>
+
+
 </topic>
