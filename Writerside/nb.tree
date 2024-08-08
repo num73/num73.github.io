@@ -34,6 +34,7 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Public-Note.md">
+        <toc-element topic="function-time-measure-using-c++.md"/>
         <toc-element topic="stared.topic"/>
         <toc-element topic="Latex.md"/>
     </toc-element>
