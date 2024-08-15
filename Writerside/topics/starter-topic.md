@@ -4,6 +4,7 @@ Hello, I am Num73. This is me blog.
 
 ## New Articles
 
+- <a href="Chapter-2-Coherence-Basics.md"></a>
 - <a href="Chapter-1-Introduction-to-Consistency-and-Coherence.md"></a>
 - <a href="cxlnote.topic"></a>
 - <a href="CXL-feature.md"></a>

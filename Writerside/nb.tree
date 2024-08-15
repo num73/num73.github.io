@@ -20,6 +20,8 @@
     <toc-element topic="Reading-Notes.topic">
         <toc-element topic="A-Primer-on-Memory-Consistency-and-Cache-Coherence.topic">
             <toc-element topic="Chapter-1-Introduction-to-Consistency-and-Coherence.md"/>
+            <toc-element topic="Chapter-2-Coherence-Basics.md">
+            </toc-element>
         </toc-element>
     </toc-element>
     <toc-element topic="Alogrithms.md">
