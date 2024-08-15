@@ -4,7 +4,7 @@
 
 All cores can perform loads and stores to all (physical) addresses. The multicore processor chip consists of multiple single-threaded cores, each of which has its own private data cache, and a last-level cache (LLC) that is shared by all cores. The cores and the LLC communicate with each other over an interconnection network. The LLC, despite being on the processor chip, is logically a "memory-side cache" and thus does not introduce another level of coherence issues. The LLC is logically just in front of the memory and serves to reduce the average latency of memory access and increase the memory's effective bandwidth. The LLC also serves as an on-chip memory controller.
 
-<img src="image-20240813104308944.png" alt="image-20240813104308944" style="zoom:50%;" />
+<img src="image-20240813104308944.png" alt="image-20240813104308944" />
 
 ## 2.2 THE PROBLEM: HOW INCOHERENCE COULD POSSIBLY OCCUR
 
