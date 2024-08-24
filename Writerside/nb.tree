@@ -36,11 +36,11 @@
             <toc-element toc-title="Balanced Ternary" topic="平衡三进制.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="Artificial-Intelligence.topic"/>
     <toc-element topic="Public-Note.md">
         <toc-element topic="function-time-measure-using-c++.md"/>
         <toc-element topic="stared.topic"/>
         <toc-element topic="Latex.md"/>
     </toc-element>
-    <toc-element topic="Artificial-Intelligence.topic"/>
     <toc-element topic="Moment.topic"/>
 </instance-profile>
