@@ -24,13 +24,13 @@ repository               : "num73/num73.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Xiaolong Guo"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "ShanghaiTech University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "guoxl@shanghaitech.edu.cn" 
 
   # Academic websites
   academia         : # URL
