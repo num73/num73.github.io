@@ -23,10 +23,8 @@ Work experience
 Skills
 ======
 * C/C++
+* Java
 * Data Structure
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
 * File System
 * Memory Management
 
