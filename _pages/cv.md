@@ -22,12 +22,23 @@ Work experience
 
 Skills
 ======
-* Programming Languages: C/C++, Java, Python ...
-* Data Structure
-* Operating System
-* Linux Kernel
-* File System
-* Memory Management
+
+#### Basics
+
+* Programming languages: C/C++, Java, Python ...
+* Data structure
+* Operating system
+* Linux
+
+#### Linux Kernel
+
+* Linux kernel module
+* File system
+* Memory management
+
+#### Hardware Related
+
 * Persistent Memory
+* CXL
 
 
