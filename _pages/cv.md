@@ -15,7 +15,7 @@ Education
 * M.S. in Computer Science, ShanghaiTech University, 2024 - current
 * B.S. in Internet of Things, Zhengzhou University, 2018 - 2022
 
-Work experience
+Work Experience
 ======
 
 * Software Developer, Fanruan, 2022 - 2023 
