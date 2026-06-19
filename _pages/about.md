@@ -24,4 +24,4 @@ No News from Xiaolong.
 
 ## Contact
 
-You can reach me by email: [guoxl@shanghaitech.edu.cn](mailto:guoxl@shanghaitech.edu.cn)
+You can reach him by email: [guoxl@shanghaitech.edu.cn](mailto:guoxl@shanghaitech.edu.cn)
