@@ -7,9 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
 
 Hello and welcome.
+
+## About Him
 
 He is a PhD student at ShanghaiTech University. His research interest is in storage systems, and he is currently working on things about persistent memory.
 
