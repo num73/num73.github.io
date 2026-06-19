@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, ShanghaiTech University, 2026 - current
+* Ph.D. in Computer Science, ShanghaiTech University, 2026 - current
 * M.S. in Computer Science, ShanghaiTech University, 2024 - current
 * B.S. in Internet of Things, Zhengzhou University, 2018 - 2022
 
@@ -22,10 +22,12 @@ Work experience
 
 Skills
 ======
-* C/C++
-* Java
+* Programming Languages: C/C++, Java, Python ...
 * Data Structure
+* Operating System
+* Linux Kernel
 * File System
 * Memory Management
+* Persistent Memory
 
 

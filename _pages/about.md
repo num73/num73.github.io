@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-He is a Ph.D student.
+Hello and welcome.
+
+He is a PhD student at ShanghaiTech University. His research interest is in storage systems, and he is currently working on things about persistent memory.
 
 
 Email: guoxl@shanghaitech.edu.cn
