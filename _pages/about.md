@@ -14,12 +14,13 @@ Hello and welcome.
 
 He is a PhD student at ShanghaiTech University. His research interest is in storage systems, and he is currently working on things about persistent memory.
 
+## Publications
 
-News:
-{: style="color: red; font-size: 1.5rem; font-weight: 700;"}
+Still noting...
+
+## News:
 
 No News from Xiaolong.
-
 
 
 ## Contact
