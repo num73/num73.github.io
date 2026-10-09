@@ -9,36 +9,25 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D. in Computer Science, ShanghaiTech University, 2026 - current
-* M.S. in Computer Science, ShanghaiTech University, 2024 - current
-* B.S. in Internet of Things, Zhengzhou University, 2018 - 2022
+[Download my CV (PDF)]({{ base_path }}/files/XiaolongGuo.pdf)
 
-Work Experience
-======
+*Last updated: <span id="cv-last-updated">…</span>*
 
-* Software Developer, Fanruan, 2022 - 2023 
-
-Skills
-======
-
-### Basics
-
-* Programming languages: C/C++, Java, Python ...
-* Data structure
-* Operating system
-* Linux
-
-### Linux Kernel
-
-* Linux kernel module
-* File system
-* Memory management
-
-### Hardware Related
-
-* Persistent Memory
-* CXL
-
-
+<script>
+fetch("{{ base_path }}/files/XiaolongGuo.pdf", { method: "HEAD" })
+  .then(function (resp) {
+    var lastModified = resp.headers.get("Last-Modified");
+    if (lastModified) {
+      var d = new Date(lastModified);
+      document.getElementById("cv-last-updated").textContent =
+        d.getFullYear() + "-" +
+        String(d.getMonth() + 1).padStart(2, "0") + "-" +
+        String(d.getDate()).padStart(2, "0");
+    } else {
+      document.getElementById("cv-last-updated").textContent = "unknown";
+    }
+  })
+  .catch(function () {
+    document.getElementById("cv-last-updated").textContent = "unknown";
+  });
+</script>
